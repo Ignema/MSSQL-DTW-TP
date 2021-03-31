@@ -1,0 +1,3 @@
+docker exec -it %1 sqlcmd -U SA -P %2 -Q "RESTORE DATABASE AdventureWorks2019 FROM DISK = '/var/opt/mssql/backup/AdventureWorks2019.bak' WITH MOVE 'AdventureWorks2017' TO '/var/opt/mssql/data/AdventureWorks2017.mdf', MOVE 'AdventureWorks2017_log' TO '/var/opt/mssql/data/AdventureWorks2017_log.ldf'"
+docker exec -it %1 sqlcmd -U SA -P %2 -Q "RESTORE DATABASE AdventureWorksDW2019 FROM DISK = '/var/opt/mssql/backup/AdventureWorksDW2019.bak' WITH MOVE 'AdventureWorksDW2017' TO '/var/opt/mssql/data/AdventureWorksDW2017.mdf', MOVE 'AdventureWorksDW2017_log' TO '/var/opt/mssql/data/AdventureWorksDW2017_log.ldf'"
+
