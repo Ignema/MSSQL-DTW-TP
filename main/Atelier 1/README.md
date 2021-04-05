@@ -1,8 +1,11 @@
 # Ateliers N°1: Installation et Exploration des bases de données AdventureWorks2012 et AdventureWorksDW2012
 
+## Voir [l'énoncé](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%201/Atelier1_Exploration.pdf)?
+
+
 ## Installation du jeu de données
 
-Voir le README de cette repository pour les instructions.
+Voir le [README](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/README.md) de cette repository pour les instructions.
 
 ## Explorer le schéma de la base AdventureWorks2012
 
@@ -10,7 +13,7 @@ N'oubliez pas d'utiliser cette commande avant de créer le diagramme
 
     use [AdventureWorks2019] EXEC sp_changedbowner 'SA'
 
-ADD IMAGE HERE
+![AdventureWorks Diagram](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%201/res/AdventureWorksDiagram.png)
 
 Comme mentionné dans le document, interagir avec une base de données de cette taille pour extraire des données pour nos analyses de données est une mauvaise idée. Il faudra de nombreuses jointures qui seront lentes et improductives. 
 
@@ -20,26 +23,26 @@ N'oubliez pas d'utiliser cette commande avant de créer le diagramme
 
     use [AdventureWorksDW2019] EXEC sp_changedbowner 'SA'
 
-ADD IMAGE HERE
+![AdventureWorksDW Diagram](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%201/res/AdventureWorksDWDiagram.png?raw=true)
 
 L'entrepôt de données est cependant un peu plus facile à explorer car il utilise des modèles en étoile et en flocon qui sont plus faciles à consulter sans des milliers de jointures. 
 
 ## Exercice 1
 
-ADD IMAGE HERE
+![Exercice 1](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%201/res/Exercice1.png?raw=true)
 
 ## Analyser le diagramme
 
-ADD IMAGE HERE
+![Analyse](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%201/res/Analyse.png?raw=true)
 
 ## Exploration des dimensions d’AdventureWorksDW2012
 
-ADD IMAGE HERE
+![Explore Dimensions](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%201/res/ExploreDim.png?raw=true)
 
 ## Exploration des tables de faits d’AdventureWorksDW2012
 
-ADD IMAGE HERE
+![Explore Facts](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%201/res/ExploreFact.png?raw=true)
 
 ## Slowly Changing Dimensions
 
-ADD IMAGE HERE
+![Slowly Changing Dimensions](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%201/res/SCD.png?raw=true)
