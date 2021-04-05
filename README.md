@@ -18,7 +18,7 @@ For your server name, the default if left unspecified is *localhost*.
 
 If unspecified, the default password will be *myPassword30*.
 
-### 4. Run you SQL Server database container
+### 4. Run your SQL Server database container
 
     docker run --name <CONTAINER-NAME> -p 1433:1433 -d <IMAGE-NAME>
 
@@ -28,18 +28,34 @@ If you don't specify a value for your container name then docker will generate a
 
 #### Windows
 
-    scripts/mount.bat <CONTAINER-NAME> <YOUR-PASSWORD>
+    scripts/windows/mount.bat <CONTAINER-NAME> <YOUR-PASSWORD>
 
 #### Linux
 
-    source scripts/mount.sh <CONTAINER-NAME> <YOUR-PASSWORD>
+    source scripts/linux/mount.sh <CONTAINER-NAME> <YOUR-PASSWORD>
 
-### 6. Download [VScode](https://code.visualstudio.com/download)
+### 6. Download an IDE (Choose One) 
+ - [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
+ - [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
+ - [Visual Studio](https://visualstudio.microsoft.com)
+ - [Visual Studio Code](https://code.visualstudio.com/download)
 
-### 7. Install these extenstions
+### 7. Install these extenstions (For VScode only)
 
 - [SQL Server (myssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
 - [ERD Editor](https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode)
 - BONUS: [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
-## Have Fun!!
+## Tips
+
+### Generate Database Schema with Python
+
+#### Install Python first
+
+#### Windows
+
+    scripts/windows/schema.bat <SERVER-NAME> <DATABASE-NAME> <USER-NAME> <YOUR-PASSWORD>
+
+#### Linux
+
+    source scripts/linux/schma.sh <SERVER-NAME> <DATABASE-NAME> <USER-NAME> <YOUR-PASSWORD>
