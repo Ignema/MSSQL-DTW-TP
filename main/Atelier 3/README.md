@@ -2,7 +2,7 @@
 
 ## Voir [l'énoncé](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%203/Atelier3_LoadingLWDTWS.pdf)?
 
-## Exercice 1: Loading data using SSMS
+## Exercice 1: Loading data using Docker
 
 ### Nettoyer le dossier SQL du container
 
@@ -87,8 +87,8 @@ N'oubliez pas d'ajouter ceci dans la rubrique SQL Statement.
         G.StateProvinceName, 
         G.EnglishCountryRegionName 
         
-    FROM AdventureWorksDW2012.dbo.DimCustomer AS C
-    INNER JOIN AdventureWorksDW2012.dbo.DimGeography AS G
+    FROM AdventureWorksDW2019.dbo.DimCustomer AS C
+    INNER JOIN AdventureWorksDW2019.dbo.DimGeography AS G
     ON C.GeographyKey = G.GeographyKey
 
     GO
@@ -146,7 +146,7 @@ Vous pouvez utiliser *Build Query* ou coller ce SQL dans la zone de texte.
         FIS.SalesAmount,
         FIS.UnitPrice, 
         FIS.DiscountAmount
-    FROM AdventureWorksDW2012.dbo.FactInternetSales AS FIS
+    FROM AdventureWorksDW2019.dbo.FactInternetSales AS FIS
     INNER JOIN LightAdventureWorksDW.dbo.Customers AS C
     ON FIS.CustomerKey = C.CustomerKey
 
@@ -158,11 +158,11 @@ Vous pouvez utiliser *Build Query* ou coller ce SQL dans la zone de texte.
 
 ### Calcule de l'espace utilisé par la table InternetSales
 
-    docker exec -it <CONTAINER-NAME> sqlcmd -U SA -P <YOUR-PASSWORD> -Q "EXEC sp_spaceused N'dbo.InternetSales', @updateusage = N'TRUE'"
+    docker exec -it <CONTAINER-NAME> sqlcmd -U SA -P <YOUR-PASSWORD> -Q "USE LIGHTADVENTUREWORKSDW EXEC sp_spaceused N'dbo.InternetSales', @updateusage = N'TRUE'"
 
 ### Compression de la table
 
-    docker exec -it <CONTAINER-NAME> sqlcmd -U SA -P <YOUR-PASSWORD> -Q "ALTER TABLE dbo.InternetSalesREBUILD WITH (DATA_COMPRESSION = PAGE)"
+    docker exec -it <CONTAINER-NAME> sqlcmd -U SA -P <YOUR-PASSWORD> -Q "USE LIGHTADVENTUREWORKSDW ALTER TABLE dbo.InternetSales REBUILD WITH (DATA_COMPRESSION = PAGE)"
 
 ### Vérifier à nouveau l'espace de la table 
 
@@ -170,10 +170,11 @@ Vous pouvez utiliser *Build Query* ou coller ce SQL dans la zone de texte.
 
 ### Nettoyer le dossier SQL du container
 
-    docker exec -it --user root %1 rm -rf /sql
+    docker exec -it --user root <CONTAINER-NAME> rm -rf /sql
 
 ### Importer les scripts SQL dans le container
 
+    cd "/main/Atelier 3"
     docker cp ./sql/ <CONTAINER-NAME>:/sql/
 
 ### Execution d'une requête qui agrège la colonne *SalesAmount* selon la colonne *ProductKey* de la table *FactInternetSales*
@@ -188,4 +189,4 @@ Vous pouvez utiliser *Build Query* ou coller ce SQL dans la zone de texte.
 
 ### Suppression de la vue
 
-    docker exec -it <CONTAINER-NAME> sqlcmd -U SA -P <YOUR-PASSWORD> -Q "Drop view dbo.SalesByProduct"
+    docker exec -it <CONTAINER-NAME> sqlcmd -U SA -P <YOUR-PASSWORD> -Q "USE AdventureWorksDW2019 Drop view dbo.SalesByProduct"

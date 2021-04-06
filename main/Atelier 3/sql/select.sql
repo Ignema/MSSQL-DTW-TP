@@ -1,4 +1,4 @@
-USE AdventureWorksDW2012
+USE AdventureWorksDW2019
 GO
 
 SET STATISTICS IO ON
