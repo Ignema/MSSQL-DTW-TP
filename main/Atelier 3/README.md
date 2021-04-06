@@ -46,7 +46,7 @@ Créez une connexion à la base de données avec les paramètres que vous avez s
 
 Assurez-vous de spécifier AdventureWorksDW2019 comme base de données que nous avons créé lors de la mise en place de l'environment.
 
-### Étape 3: Ajout et configuration dugestionnaire de connexions OLE DB destination
+### Étape 3: Ajout et configuration du gestionnaire de connexions OLE DB destination
 
 ![Dest DB](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%203/res/newConnDB2.png)
 
