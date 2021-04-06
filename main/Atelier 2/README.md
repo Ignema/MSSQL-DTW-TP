@@ -18,6 +18,10 @@
 
 ## Manual way
 
+### Nettoyer le dossier SQL du container
+
+    docker exec -it --user root %1 rm -rf /sql
+
 ### Importer les scripts SQL dans le container
 
     docker cp ./sql/ <CONTAINER-NAME>:/sql/
