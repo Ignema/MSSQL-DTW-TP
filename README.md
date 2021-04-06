@@ -2,6 +2,14 @@
 
 This repository is an attempt to solve the series of assignments presented during an ensias's course about datawarehouses. However, I will be using docker which means it will be slightly harder to implement, but I think it's worth it because containers are much more flexible and portable than establishing a local database.
 
+## Answers
+
+Atelier | Location 
+--- | --- 
+Ateliers N°1: Installation et Exploration des bases de données AdventureWorks2019 et AdventureWorksDW2019 | [Atelier 1](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%201)
+Ateliers N°2: Mise en place d’un Datawarehouse | [Atelier 2](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%202)
+Ateliers N°3: Loading Data and Using Data Compression and Indexes | [Atelier 3](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%203) 
+
 ## How to setup the environment
 
 ### 1. Make sure you have [Docker](https://www.docker.com/products/docker-desktop) downloaded
@@ -37,7 +45,7 @@ If you don't specify a value for your container name then docker will generate a
 ### 6. Download an IDE (Choose One) 
  - [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
  - [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
- - [Visual Studio](https://visualstudio.microsoft.com)
+ - [Visual Studio](https://visualstudio.microsoft.com) (If you plan on using SSIS and SSDT then use this one.)
  - [Visual Studio Code](https://code.visualstudio.com/download)
 
 ### 7. Install these extenstions (For VScode only)
@@ -48,7 +56,7 @@ If you don't specify a value for your container name then docker will generate a
 
 ## Tips
 
-### Generate Database Schema with Python
+### Generate Database SQL Scripts with Python
 
 #### Install Python first
 
