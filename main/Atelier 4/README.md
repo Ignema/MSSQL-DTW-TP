@@ -6,49 +6,49 @@
 
 Nous avons déjà installé des outils de données SQL et ssis dans Visual Studio, nous allons donc créer un nouveau projet. 
 
-INSERT IMAGE HERE (1)
+![1](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/1.png?raw=true)
 
-INSERT IMAGE HERE (2)
+![2](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/2.png?raw=true)
 
 ## Étape 2: Ajout et configuration d'un gestionnaire de connexions de fichiers
 
-INSERT IMAGE HERE (3)
+![3](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/3.png?raw=true)
 
-INSERT IMAGE HERE (4)
+![4](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/4.png?raw=true)
 
-INSERT IMAGE HERE (5)
+![5](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/5.png?raw=true)
 
-INSERT IMAGE HERE (6)
+![6](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/6.png?raw=true)
 
-INSERT IMAGE HERE (7)
+![7](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/7.png?raw=true)
 
-INSERT IMAGE HERE (8)
+![8](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/8.png?raw=true)
 
 ## Étape 3: Ajout et configuration d'un gestionnaire de connexions OLE DB
 
 Important: Make sure your datawarehouse sql server container is running on docker first!
 
-INSERT IMAGE HERE (11)
+![11](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/11.png?raw=true)
 
-INSERT IMAGE HERE (9)
+![9](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/9.png?raw=true)
 
-INSERT IMAGE HERE (10)
+![10](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/10.png?raw=true)
 
 ## Étape 4: Ajout d'une tâche de flux de données au package
 
-INSERT IMAGE HERE (12)
+![12](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/12.png?raw=true)
 
 ## Étape 5: Ajout et configuration du fichier source
 
-INSERT IMAGE HERE (13)
+![13](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/13.png?raw=true)
 
-INSERT IMAGE HERE (14)
+![14](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/14.png?raw=true)
 
 ## Étape 6: Ajout et configuration des transformations de recherche
 
-INSERT IMAGE HERE (15)
+![15](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/15.png?raw=true)
 
-INSERT IMAGE HERE (16)
+![16](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/16.png?raw=true)
 
     SELECT 
         * 
@@ -70,22 +70,22 @@ INSERT IMAGE HERE (16)
         [refTable].[CurrencyAlternateKey] = 'USD' OR
         [refTable].[CurrencyAlternateKey] = 'VEB'
 
-INSERT IMAGE HERE (17)
+![17](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/17.png?raw=true)
 
-INSERT IMAGE HERE (18)
+![18](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/18.png?raw=true)
 
-INSERT IMAGE HERE (19)
+![19](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/19.png?raw=true)
 
-INSERT IMAGE HERE (20)
+![20](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/20.png?raw=true)
 
-INSERT IMAGE HERE (21)
+![21](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/21.png?raw=true)
 
 ## Étape 7: Ajout et configuration la destination OLE DB
 
-INSERT IMAGE HERE (22)
+![22](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/22.png?raw=true)
 
-INSERT IMAGE HERE (23)
+![23](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/23.png?raw=true)
 
 ## Étape 8: Tester la transformation
 
-INSERT IMAGE HERE (24)
+![24](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%204/res/24.png?raw=true)

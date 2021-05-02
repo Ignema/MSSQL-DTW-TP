@@ -6,9 +6,10 @@ This repository is an attempt to solve the series of assignments presented durin
 
 Atelier | Location 
 --- | --- 
-Ateliers N°1: Installation et Exploration des bases de données AdventureWorks2019 et AdventureWorksDW2019 | [Atelier 1](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%201)
-Ateliers N°2: Mise en place d’un Datawarehouse | [Atelier 2](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%202)
-Ateliers N°3: Loading Data and Using Data Compression and Indexes | [Atelier 3](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%203) 
+Installation et Exploration des bases de données AdventureWorks2019 et AdventureWorksDW2019 | [Atelier 1](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%201)
+Mise en place d’un Datawarehouse | [Atelier 2](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%202)
+Loading Data and Using Data Compression and Indexes | [Atelier 3](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%203) 
+Extraction de données à partir d’un fichier plat | [Atelier 4](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%204) 
 
 ## How to setup the environment
 
