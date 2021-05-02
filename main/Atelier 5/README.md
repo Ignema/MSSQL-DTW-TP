@@ -14,37 +14,37 @@ Make sure you execute this inside this directory (Atelier 5)
 
 ## Tâche 2: Initialiser le projet SSIS
 
-INSERT IMAGE HERE (1)
+![1](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/1.png?raw=true)
 
 ## Tâche 3: Définition de la source et de la cible de données
 
-INSERT IMAGE HERE (2)
+![2](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/2.png?raw=true)
 
-INSERT IMAGE HERE (3)
+![3](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/3.png?raw=true)
 
 ## Tâche 4: Créer un flux de contrôledans le package
 
-INSERT IMAGE HERE (4)
+![4](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/4.png?raw=true)
 
 ## Tâche 5: Conception du flux de données «Insertion et Mise à jour des lignes de la dimension produit»
 
-INSERT IMAGE HERE (5)
+![5](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/5.png?raw=true)
 
-INSERT IMAGE HERE (6)
+![6](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/6.png?raw=true)
 
-INSERT IMAGE HERE (7)
+![7](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/7.png?raw=true)
 
-INSERT IMAGE HERE (8)
+![8](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/8.png?raw=true)
 
-INSERT IMAGE HERE (9)
+![9](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/9.png?raw=true)
 
-INSERT IMAGE HERE (10)
+![10](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/10.png?raw=true)
 
-INSERT IMAGE HERE (11)
+![11](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/11.png?raw=true)
 
-INSERT IMAGE HERE (12)
+![12](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/12.png?raw=true)
 
-INSERT IMAGE HERE (13)
+![13](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/13.png?raw=true)
 
     UPDATE 
         [dbo].[PRODUIT] 
@@ -57,11 +57,11 @@ INSERT IMAGE HERE (13)
     WHERE 
         [idproduit] = ? AND date_update IS NULL
 
-INSERT IMAGE HERE (16)
+![16](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/16.png?raw=true)
 
-INSERT IMAGE HERE (14)
+![14](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/14.png?raw=true)
 
-INSERT IMAGE HERE (15)
+![15](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/15.png?raw=true)
 
 ## Tâche 6: Conception du flux de données «Historisation des lignes inactifs de la dimension produit»
 
@@ -76,15 +76,15 @@ INSERT IMAGE HERE (15)
     WHERE 
         isCurrent = 1
 
-INSERT IMAGE HERE (17)
+![17](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/17.png?raw=true)
 
-INSERT IMAGE HERE (18)
+![18](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/18.png?raw=true)
 
-INSERT IMAGE HERE (19)
+![19](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/19.png?raw=true)
 
-INSERT IMAGE HERE (20)
+![20](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/20.png?raw=true)
 
-INSERT IMAGE HERE (21)
+![21](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/21.png?raw=true)
 
     UPDATE 
         dbo.produit 
@@ -94,8 +94,8 @@ INSERT IMAGE HERE (21)
     WHERE 
         idproduit = ?
 
-INSERT IMAGE HERE (22)
+![22](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/22.png?raw=true)
 
-INSERT IMAGE HERE (23)
+![23](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/23.png?raw=true)
 
-INSERT IMAGE HERE (24)
+![24](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%205/res/24.png?raw=true)
