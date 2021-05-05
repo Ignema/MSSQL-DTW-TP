@@ -6,17 +6,17 @@ Il s’agit d’alimenter le datawarehouse LightAdventureWorksDW depuis Adventur
 
 ## **Etape 1:** Établir les connexions avec les bdd SQL Server AdventureWorks2019 et LightAdventureWorksDW
 
-INSERT IMAGE HERE (1)
+![1](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/1.png?raw=true)
 
 ## **Etape 2:** Réaliser le flux de données de la table de products
 
 ### Création du data flow depuis Visual Studio et SSIS
 
-INSERT IMAGE HERE (2)
+![2](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/2.png?raw=true)
 
 ### Mise en place de l'extraction des données
 
-INSERT IMAGE HERE (3)
+![3](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/3.png?raw=true)
 
 Nous devrons utiliser ces deux requêtes car nous travaillons avec une base de données transactionnelle.
 
@@ -53,11 +53,11 @@ Nous devrons utiliser ces deux requêtes car nous travaillons avec une base de d
 
 ### Slowly Changing Dimensions
 
-INSERT IMAGE HERE (4)
+![4](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/4.png?raw=true)
 
-INSERT IMAGE HERE (5)
+![5](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/5.png?raw=true)
 
-INSERT IMAGE HERE (6)
+![6](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/6.png?raw=true)
 
 ## **Etape 3:** Creation du data flow pour Customer
 
@@ -94,7 +94,7 @@ INSERT IMAGE HERE (6)
         AND Sales.SalesOrderHeader.BillToAddressID = Address_1.AddressID 
         AND Sales.SalesOrderHeader.ShipToAddressID = Address_1.AddressID
 
-INSERT IMAGE HERE (7)
+![7](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/7.png?raw=true)
 
 ## **Etape 4:**  Creation du data flow pour Date
 
@@ -106,7 +106,7 @@ INSERT IMAGE HERE (7)
     FROM 
         Sales.SalesOrderHeader
 
-INSERT IMAGE HERE (8)
+![8](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/8.png?raw=true)
 
 ## **Etape 5:** Creation du data flow pour Internet Sales
 
@@ -132,12 +132,12 @@ INSERT IMAGE HERE (8)
         AND P.ProductKey = SD.ProductID
         AND D.Fulldate = SH.OrderDate;
 
-INSERT IMAGE HERE (9)
+![9](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/9.png?raw=true)
 
 ## **Etape 6:** Finalisation du control flow
 
-INSERT IMAGE HERE (10)
+![10](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/10.png?raw=true)
 
 ## **Etape 7:** Faire un test
 
-INSERT IMAGE HERE (11)
+![11](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/11.png?raw=true)

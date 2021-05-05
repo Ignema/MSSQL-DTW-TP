@@ -1,4 +1,4 @@
-# Ateliers N°6: Analyse et édition de rapportsdes données OLAP (Beta ver.)
+# Ateliers N°6: Analyse et édition de rapports des données OLAP (Beta ver.)
 
 ## Voir [l'énoncé](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Atelier%206/Atelier6_SSAS.pdf)?
 

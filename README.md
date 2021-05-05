@@ -11,7 +11,8 @@ Mise en place d’un Datawarehouse | [Atelier 2](https://github.com/Ignema/MSSQL
 Loading Data and Using Data Compression and Indexes | [Atelier 3](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%203) 
 Extraction de données à partir d’un fichier plat | [Atelier 4](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%204) 
 Slowly Changing Dimensions | [Atelier 5](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%205)
-Analyse et édition de rapportsdes données OLAP | [Atelier 6](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%206)
+Analyse et édition de rapports des données OLAP | [Atelier 6](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Atelier%206)
+Création et Mise en œuvre d’un DTW pour l’analyse des données de vente sur internet | [Projet](https://github.com/Ignema/MSSQL-DTW-TP/tree/master/main/Projet)
 
 ## How to setup the environment
 

@@ -6,8 +6,8 @@ A  l’aide  de  SSAS,  créez  le  cube  OLAP  correspondant  au  sujet  Vente.
 
 ## Data Source Views
 
-INSERT IMAGE (12)
+![12](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/12.png?raw=true)
 
 ## Cube View
 
-INSERT IMAGE (13)
+![13](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/13.png?raw=true)

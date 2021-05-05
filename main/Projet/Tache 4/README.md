@@ -4,12 +4,12 @@
 
 ## Vente en fonction des annees
 
-INSERT IMAGE (14)
+![14](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/14.png?raw=true)
 
 ## Vente en fonction des pays
 
-INSERT IMAGE (15)
+![15](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/15.png?raw=true)
 
 ## Rapport matriciel
 
-INSERT IMAGE (16)
+![16](https://github.com/Ignema/MSSQL-DTW-TP/blob/master/main/Projet/res/16.png?raw=true)
