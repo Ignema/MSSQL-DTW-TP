@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSAS_project</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>hHJZK9L4NvkPGwVE1a3tmhyv5+Q=4/26/2021 6:02:20 PM4/26/2021 6:02:20 PM</TimeStamp>
+        <ID>
+          <String>LIGHTADVENTUREWORKSDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>c7UECKcuSELm6pZ5ioZJPE1LM24=4/26/2021 6:02:20 PM4/26/2021 6:02:20 PM</TimeStamp>
+        <ID>
+          <String>LIGHTADVENTUREWORKSDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ke+NO9V1DEFYTGvTyXVSmbT720I=4/26/2021 6:02:20 PM4/26/2021 6:02:20 PM</TimeStamp>
+        <ID>
+          <String>Products</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/S0P0dThSTYvqRGm/mU9zMqBAUw=4/26/2021 6:02:19 PM4/26/2021 6:02:19 PM</TimeStamp>
+        <ID>
+          <String>Dates</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oYWKbdF+s/J8IlO0eHG6STera4I=4/26/2021 6:02:19 PM4/26/2021 6:02:19 PM</TimeStamp>
+        <ID>
+          <String>Customers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>/KIDRYy2Gfodx0LO+NlKOc1P63s=4/26/2021 6:02:19 PM4/26/2021 6:02:19 PM1Vh6Sx/5+WhrOtwZ8nT7RA/vve4=4/26/2021 6:02:20 PM4/26/2021 6:02:20 PM</TimeStamp>
+        <ID>
+          <String>LIGHTADVENTUREWORKSDW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>IPPYPxXsx/Cy3cJ9hOVC2GGA2tU=4/26/2021 6:02:20 PM4/26/2021 6:02:20 PM</TimeStamp>
+      <ID>
+        <String>SSAS_project</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>false</ProcessingComplete>
+  <LastDeployed>2021-04-26T18:09:13.72Z</LastDeployed>
+</DeploymentSnapshot>
