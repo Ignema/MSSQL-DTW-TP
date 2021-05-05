@@ -6,60 +6,60 @@
 
 ### Tâche 2: Initialiser le projet SSAS
 
-INSERT IMAGE HERE (1)
+![1](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/1.png)
 
 ### Tâche 3: Définition de la source de données
 
-INSERT IMAGE HERE (2)
+![2](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/2.png)
 
-INSERT IMAGE HERE (3)
+![3](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/3.png)
 
 ### Tâche 4: Création d’une vue desource de données
 
-INSERT IMAGE HERE (4)
+![4](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/4.png)
 
-INSERT IMAGE HERE (5)
+![5](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/5.png)
 
-INSERT IMAGE HERE (6)
+![6](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/6.png)
 
 ### Tâche 5: Création de la dimension personnalisée Dim Product*
 
-INSERT IMAGE HERE (7)
+![7](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/7.png)
 
-INSERT IMAGE HERE (8)
+![8](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/8.png)
 
-INSERT IMAGE HERE (9)
+![9](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/9.png)
 
-INSERT IMAGE HERE (10)
+![10](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/10.png)
 
 ### Tâche 6: Création de la dimension personnalisée Dim Date*
 
-INSERT IMAGE HERE (11)
+![11](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/11.png)
 
-INSERT IMAGE HERE (12)
+![12](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/12.png)
 
-INSERT IMAGE HERE (13)
+![13](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/13.png)
 
-INSERT IMAGE HERE (14)
+![14](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/14.png)
 
 ### Tâche 7: Création du cube*
 
-INSERT IMAGE HERE (15)
+![15](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/15.png)
 
-INSERT IMAGE HERE (16)
+![16](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/16.png)
 
 ## Lab 3: Repoting - Création d’un rapport dans SSRS
 
 ### Tâche 1: Initialiser le projet
 
-INSERT IMAGE HERE (17)
+![17](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/17.png)
 
 ### Tâche 2: Création d’une source de données partagée
 
-INSERT IMAGE HERE (18)
+![18](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/18.png)
 
-INSERT IMAGE HERE (19)
+![19](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/19.png)
 
 ### Tâche 3: Création d’un rapport*
 
-INSERT IMAGE HERE (20)
+![20](https://raw.githubusercontent.com/Ignema/MSSQL-DTW-TP/master/main/Atelier%206/res/20.png)
